@@ -1,0 +1,25 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2017",
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "noImplicitReturns": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true
+    }
+  },
+  "compilerOptions": {
+    "declaration": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2017",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": ["*"],
+  "exclude": ["node_modules"]
+}
